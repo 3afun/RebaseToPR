@@ -23,4 +23,10 @@ public class HomeController {
         return jsonObject.toString();
     }
 
+
+    @ResponseBody
+    @GetMapping(value = "/hiking")
+    public String Hiking(){
+        return "Hiking";
+    }
 }
