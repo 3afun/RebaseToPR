@@ -27,6 +27,7 @@ public class HomeController {
     @ResponseBody
     @GetMapping(value = "/hiking")
     public String Hiking(){
-        return "Hiking";
+
+        return "Hiking2";
     }
 }
